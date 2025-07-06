@@ -3,8 +3,9 @@ import React from "react";
 function About() {
   return (
     <section
-      id="about"
-      className="min-h-screen flex flex-col justify-start items-center bg-gradient-to-br from-indigo-50 to-purple-100 px-4 py-16"
+      id="home"
+      className="min-h-[calc(100vh-4rem)] flex flex-col justify-center items-center bg-gradient-to-br from-blue-600 to-indigo-100 px-4"
+      //          ^^^^^^^^^^^^^^^^^^^^ This accounts for navbar height (assuming ~4rem)
     >
       <div className="text-center space-y-8 max-w-4xl">
         <h2 className="text-3xl md:text-5xl font-bold text-black-500 mb-8">
