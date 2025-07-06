@@ -11,7 +11,7 @@ function Header() {
   ];
 
   return (
-    <header className="flex justify-center items-center fixed top-0 left-0 right-0 z-50 h-16  backdrop-blur-sm shadow-md">
+    <header className="flex justify-center items-center fixed top-0 left-0 right-0 z-50 h-16  backdrop-blur-sm shadow-md overflow-hidden">
       <nav className="flex space-x-2 sm:space-x-4 md:space-x-6 lg:space-x-8 max-w-7xl mx-auto px-2 sm:px-4 md:px-6 lg:px-8 w-full justify-center">
         {navItems.map((item) => (
           <Link
