@@ -4,17 +4,18 @@ import ProjectCard from "./ProjectCard";
 function Projects() {
   const projectData = [
     {
-      title: "CampusDash",
-      description: `Web application connecting students with peer dashers for on-campus food delivery.
-       Implemented user authentication and real-time order tracking using Google Firebase and OpenStreetMap API
-       with Leaflet.js for dynamic campus mapping and location-based vendor selection.`,
-      link: "https://github.com/DilverSingh23/campus-dash",
+      title: "Receiptify",
+      description: `AI-driven web platform that automates receipt processing, enabling users to digitize and categorize over 100 receipts per minute with ~95% parsing accuracy.
+        Implemented secure upload and classification workflow using Google OAuth 2.0, Supabase, and Gemini 2.5 Flash for automated text extraction and folder-based organization.
+        Built a dynamic financial dashboard providing real-time spending analytics and AI-generated insights to identify 30-day spending patterns and actionable savings opportunities.`,
+      link: "https://github.com/alfredscyriac/Receiptify", // replace with your actual link
     },
     {
-      title: "DocDiscovery",
-      description: `Doctor-matching platform presents curated list of doctors based on user input in a "Tinder-like" interface.
-       Submitted to Hack Knight Fall 2024 @ Queens College.`,
-      link: "https://github.com/DilverSingh23/hackknight",
+      title: "FitNest",
+      description: `Full-stack habit tracking application built with React, Node.js/Express, and MongoDB for persistent user data storage.
+        Implemented RESTful API endpoints enabling CRUD operations for habit creation, progress tracking, and secure session-based user authentication.
+        Designed optimized MongoDB schemas for user profiles, habit definitions, and daily progress logs, ensuring efficient queries and scalable performance.`,
+      link: "https://github.com/SharifAli1/FitNest", // replace with your actual link
     },
   ];
 
